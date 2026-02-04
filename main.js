@@ -4,9 +4,9 @@ const sparky = document.createElement("img");
   sparky.height = 500;
   sparky.id = "sparky";
   sparky.style.bottom = 0 + "px";
-  sparky.style.left = 0 + "px";
+  sparky.style.left = 1050 + "px";
   sparky.style.position = "fixed";
-var x = 0;
+var x = 1050;
 var y = 0;
 document.addEventListener("keydown", function(event) {
   if (event.key === "ArrowRight") {
